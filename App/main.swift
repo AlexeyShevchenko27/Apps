@@ -32,5 +32,5 @@ for i in mass
     deg = Double(truncating: pow(0.54, i) as NSNumber)
     shit = Double(truncating: pow(0.46, 9-i) as NSNumber)
     whole = eq*deg*shit
-    print(whole)
+    print("P(\(Int(i))) = \(whole)")
 }
