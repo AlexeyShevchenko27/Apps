@@ -34,4 +34,3 @@ for i in mass
     whole = eq*deg*shit
     print(whole)
 }
-print("git is lit")
